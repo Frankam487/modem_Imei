@@ -39,9 +39,9 @@ function Modem() {
       setError("IMEI invalide. Veuillez entrer un IMEI valide.");
     }
   };
-
+  const number = '+237690461830';
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
       <h1 className="text-3xl font-bold mb-6">Déblocage MODEMs</h1>
       <form onSubmit={handleSubmit} className="bg-gray-800 p-6 rounded-lg shadow-lg w-96">
         <label className="block mb-2 text-lg">Entrer votre IMEI :</label>
@@ -70,13 +70,13 @@ function Modem() {
         <a href="#" className="text-white transition text-4xl">
           <FaTiktok />
         </a>
-        <a href="#" className="text-green-400 transition text-4xl">
+        <a href={number}  target="_blank" className="text-green-400 transition text-4xl">
           <FaWhatsapp />
         </a>
-        <a href="#" className="text-blue-500 transition text-4xl">
+        <a href="https://www.facebook.com/Frankam/Shopping" className="text-blue-500 transition text-4xl">
           <FaFacebook />
         </a>
-        <a href="" className="text-blue-400 transition text-4xl">
+        <a href="" target="_blank" className="text-blue-400 transition text-4xl">
           <FaTelegram />
 
         </a>

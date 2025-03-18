@@ -1,5 +1,5 @@
 import React from 'react'
-import Modem from './components/modem'
+import Modem from './components/Modem'
 
 const App = () => {
   return (
