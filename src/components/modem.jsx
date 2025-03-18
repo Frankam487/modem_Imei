@@ -57,7 +57,7 @@ function Modem() {
         />
         {error && <p className="text-red-400 text-sm mb-2">{error}</p>}
         <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-lg transition">
-          Générer le code
+          Générer le codee
         </button>
       </form>
       {unlockCode && (
@@ -67,7 +67,7 @@ function Modem() {
         </div>
       )}
       <div className="mt-6 flex gap-4">
-        <a href="#" className="text-white transition text-4xl">
+        <a href="" className="text-white transition text-4xl">
           <FaTiktok />
         </a>
         <a href={number}  target="_blank" className="text-green-400 transition text-4xl">
